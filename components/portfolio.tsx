@@ -11,6 +11,14 @@ const getDomainFromUrl = (url: string) => {
 export const Portfolio = () => {
   const portfolio = [
     {
+      title: "ai-nc",
+      icon: "https://www.ai-nc.com/images/branding/logo-silver-cropped.svg",
+      description:
+        "ai-nc's product 'Manufact' is making the making of things a little less shit for designers' designs, and the manufacturing firms that make them.",
+      url: "https://www.ai-nc.com/",
+      status: null,
+    },
+    {
       title: "ashby",
       icon: "/portfolio/ashby.png",
       description:
